@@ -2,7 +2,7 @@
   "name": "chatbot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stianjp.github.io/Bacheloroppgave/chatbot",
+  "homepage": "https://stianjp.github.io/chatbot",
   "dependencies": {
     "@langchain/openai": "^0.4.2",
     "axios": "^1.8.1",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --max-buffer 1024*1024"
   },
   "eslintConfig": {
     "extends": [

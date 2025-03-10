@@ -16,7 +16,9 @@ dotenv.config();
 
 const app = express();
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: process.env.NODE_ENV === 'production'
+    ? 'https://stianjp.github.io'
+    : 'http://localhost:3000',
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS",
   allowedHeaders: "Content-Type,Authorization",
   credentials: true,

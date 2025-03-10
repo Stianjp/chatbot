@@ -11,6 +11,10 @@ import logo from "../media/logo.png";
 import miniLogo from "../media/MH_logo.png";
 import { IoClose } from "react-icons/io5";
 
+const apiBaseUrl = process.env.NODE_ENV === 'production'
+  ? process.env.REACT_APP_API_BASE_URL_PRODUCTION
+  : process.env.REACT_APP_API_BASE_URL_DEVELOPMENT;
+
 /*
   Chatbot.jsx:
   - Fase = 1 => GPT bruker phaseOnePrompt (5-8 spørsmål).
@@ -48,7 +52,7 @@ const Chatbot = () => {
   // Start en ny samtale og hent en ID
   const startNewChat = async () => {
     try {
-      const response = await axios.post("http://localhost:5001/saveData/start");
+      const response = await axios.post(`${apiBaseUrl}/saveData/start`);
       setChatId(response.data.chatId);
       console.log("Ny samtale startet med ID:", response.data.chatId);
     } catch (error) {
@@ -67,7 +71,7 @@ const Chatbot = () => {
   // Tøm userData.json
   const clearData = async () => {
     try {
-      await axios.post("http://localhost:5001/api/clearData");
+      await axios.post(`${apiBaseUrl}/api/clearData`);
       console.log("userData.json tømt");
     } catch (error) {
       console.error("❌ Feil ved tømming av userData.json:", error);
@@ -148,7 +152,7 @@ useEffect(() => {
   // Lagre en melding til backend
   const saveMessage = async (message) => {
     try {
-      await axios.post("http://localhost:5001/saveData/save", {
+      await axios.post(`${apiBaseUrl}/saveData/save`, {
         chatId,
         sender: message.sender,
         text: message.text,
@@ -168,10 +172,10 @@ useEffect(() => {
     try {
         if (consent === false) {
             console.log("🚫 Bruker har ikke samtykket. Samtalen slettes.");
-            await axios.delete(`http://localhost:5001/saveData/delete/${chatId}`);
+            await axios.delete(`${apiBaseUrl}/saveData/delete/${chatId}`);
             console.log("🚫 Samtale slettet siden brukeren ikke ga samtykke.");
         } else {
-              const response = await axios.post("http://localhost:5001/saveData/finish", { chatId });
+              const response = await axios.post(`${apiBaseUrl}/saveData/finish`, { chatId });
               console.log(response.data.message, "Fil lagret på:", response.data.filePath);
         }
     } catch (error) {

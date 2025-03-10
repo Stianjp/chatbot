@@ -2,7 +2,9 @@
 
 import axios from "axios";
 
-const API_URL = "http://localhost:5001"; // 🚨 Er dette riktig backend-url?
+const API_URL = process.env.NODE_ENV === 'production'
+  ? process.env.REACT_APP_API_BASE_URL_PRODUCTION
+  : process.env.REACT_APP_API_BASE_URL_DEVELOPMENT;
 
 export const saveData = async (consent, messages) => {
   try {

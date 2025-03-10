@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Bacheloroppgave/chatbot/static/css/main.3e897c13.css",
+    "main.js": "/Bacheloroppgave/chatbot/static/js/main.903b93b6.js",
+    "static/js/488.3a6149cd.chunk.js": "/Bacheloroppgave/chatbot/static/js/488.3a6149cd.chunk.js",
+    "static/media/logo.png": "/Bacheloroppgave/chatbot/static/media/logo.8a7f010572e285a32a45.png",
+    "static/media/MH_logo.png": "/Bacheloroppgave/chatbot/static/media/MH_logo.b75aef1e8f9183433c37.png",
+    "index.html": "/Bacheloroppgave/chatbot/index.html",
+    "main.3e897c13.css.map": "/Bacheloroppgave/chatbot/static/css/main.3e897c13.css.map",
+    "main.903b93b6.js.map": "/Bacheloroppgave/chatbot/static/js/main.903b93b6.js.map",
+    "488.3a6149cd.chunk.js.map": "/Bacheloroppgave/chatbot/static/js/488.3a6149cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e897c13.css",
+    "static/js/main.903b93b6.js"
+  ]
+}

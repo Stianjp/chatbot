@@ -1,0 +1,182 @@
+[
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "Ja, jeg godtar."
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Takk for tilbakemeldingen! Da setter vi i gang. Hva heter du?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "Younes"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Hyggelig å bli kjent med deg, Younes. Så, hva driver du med for tiden? Jobber du eller studerer du?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "Jeg studerer men jeg har fått en jobb jeg skal starte i når jeg er ferdig med studiet til sommeren"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Så, hvis jeg forstår deg rett, balanserer du studiene samtidig som du forbereder deg på å starte i en ny jobb til sommeren. Hva studerer du nå, og hva går jobben din ut på?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "Jeg studerer dataingeniør og skal starte i jobb som junior software developer"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Ok, så studiene dine og jobben din henger godt sammen, det er jo bra. Hva er det som appellerer til deg ved å være en junior software developer?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "gjennom studiene fant jeg ut at utvikling var det som interesserte meg mest selv om det var det som også var vanskeligest, men jeg føler jeg lører mest av å jobbe med det"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det er interessant at du finner den største interessen i det som også er mest utfordrende. Hva tror du det er med disse utfordringene som gjør dem så tiltrekkende for deg?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "Jeg har lyst til å finne en karrierevei, og jeg er veldig usikker på hva som er rett for meg, så jeg vlagte det som gir flest muligheter slik at jeg ikke blir låst til bare en jobb"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det gir mening å velge en vei som holder mulighetene åpne. Hvordan opplever du det å arbeide med noe som gir så mange muligheter mens du leter etter den rette karriereveien?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "Jeg tenker det er et smart valg, men jeg er usikker på om jeg har valgt riktig ettersom jeg synest det er veldig vanskelig og jeg ser kollegaene mine og medstudenter har en bedre forståelse for kode"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det virker som du setter pris på fleksibiliteten, men samtidig er usikker på egen mestring. Hva skjer hvis du ser på ferdighetene og den forståelsen de andre har, som en mulighet til å lære av dem i stedet for en sammenligning?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "Jo vi jobber i team som jeg ser på det som en mulighet men jeg er redd for å stille dumme spørsmål som viser at jeg egentlig ikke kan dette her"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Jeg forstår at du er bekymret for hvordan du kan oppfattes. Hva kan det bety for deg å overvinne denne frykten og sette deg selv i den posisjonen hvor du kan lære mer effektivt?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "hvis jeg ikke tenkte på hva andre synes så hadde jeg helt klart lært mye mer men jeg er redd for at jeg kan risikere jobben"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det er forståelig at du ønsker å bevare jobbtryggheten. Hvordan kan du balansere ønsket om å lære og utvikle deg med behovet for å føle deg sikker i din rolle?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "jeg tenker å bare være åpen om det og bare tenke de forstår at det tar litt tid å lære alt i starten"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Å være åpen om din læringsprosess kan absolutt være en styrke. Hva tror du det kan bidra med til teamet ditt når du velger å være ærlig om hvor du står?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "jeg tenker de vet bedre hvor de har meg da, og kan se tydligere når jeg begynner å forstå ting slik at de kan gi meg vanskeligere oppgaver"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det gir mening, og skaper nok også en mer realistisk forventning fra deres side. Når du tenker på dette, hvordan føler du deg når du ser fremover mot å starte i den nye jobben?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "jeg har allerede startet litt med opplæring, og i starten var det veldig skummelt, men nå har jeg fått litt mer selvtillit og føler jeg kan bidra mer"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det høres ut som om du gjør fremskritt og blir mer komfortabel i rollen din. Hvordan tror du denne opplevelsen kan påvirke hvordan du møter fremtidige utfordringer i jobben din?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "Jeg tenker egentlig at når har jeg mer selvtillit og kan tørre å feile litt mer ettersom jeg har vist at jeg forstår noe og kan være til hjelp"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det å føle seg trygg nok til å tørre å feile kan være en verdifull del av læringsprosessen og vekst. Hvordan vil du bruke denne nye selvtilliten til å dra nytte av mulighetene som dukker opp fremover?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "jeg tenker at med tiden når jeg får litt mer erfaring under belte så kommer jeg til å ha en klarere tanke om dette er den rette karrieren for meg"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det høres ut som en fornuftig tilnærming, å gi deg selv tid til å vokse og lære mer før du bestemmer deg for noe langsiktig. Hvilke konkrete skritt tror du kan hjelpe deg med å samle mer erfaring og innsikt?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "jeg tenker bare å lære av kollegaene mine og tørr og komme med ideer"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det er en god strategi å lære av de rundt deg og aktivt bidra med dine egne ideer. Ved å gjøre det, hvordan tror du det vil påvirke din utvikling og de mulighetene du kan få videre?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "jeg tenker det vil jeg meg mer selvtillit i neste jobb slik at jeg kan vise folk hva jeg kan og ta mer del i teamet"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det høres ut som en sterk plan for personlig og profesjonell utvikling. Ved å bygge selvtillit, har du kanskje større mulighet til å ta initiativ og bidra på nye måter i fremtiden. Nå som vi har sett på hva som motiverer deg og hva som kan stoppe deg, ser det ut som du er på vei mot å gjøre det best ut av din nåværende situasjon. Hvordan føler du deg nå med tanke på veien videre?"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "jeg føler jeg har et klarere bilde av veien videre og er tryggere på jobbvalget mitt"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Det er flott å høre at du føler deg tryggere og har fått et klarere bilde av veien videre. Husk at utviklingen din er en kontinuerlig prosess, og de valgene du tar nå kan alltid justeres etterhvert som du lærer mer. Takk for at du delte tankene dine med meg, og jeg ønsker deg lykke til med både studiene og den kommende jobben som junior software developer!"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "user",
+    "text": "kan du gi meg en oppsummering over hvilke motivasjoner og egenskaper jeg har"
+  },
+  {
+    "chatId": "1741252833766",
+    "sender": "bot",
+    "text": "Selvfølgelig, Younes. Her er en oppsummering av våre samtalepunkter:\n\n1. **Motivasjoner:**\n   - **Interesse for utvikling:** På tross av utfordringene, er utvikling det som interesserer deg mest, og du ønsker å vokse innen dette feltet.\n   - **Fleksibilitet i karrierevalget:** Du valgte en retning som gir mange muligheter for å unngå å bli låst til en bestemt jobb.\n   - **Lyst til å lære:** Du har et ønske om å lære av dem rundt deg og anerkjenne kompleksiteten i arbeidet ditt.\n\n2. **Egenskaper:**\n   - **Åpenhet:** Du har en vilje til å være åpen med teamet ditt om din læringsprosess, noe som understøtter et godt samarbeid.\n   - **Mot til å utfordre seg selv:** Du tør å møte utfordringene og vurderer frykt for å stille \"dumme\" spørsmål som muligheter for læring.\n   - **Selvinnsikt:** Du har reflektert over egen usikkerhet og hvordan den kan overkommes gjennom aktiv deltakelse i teamet.\n   - **Selvtillit i vekst:** Gjennom erfaring har du begynt å bygge selvtillit, noe som forbereder deg på å ta større roller i fremtiden.\n\nJeg håper det gir deg et godt bilde av hva som driver deg og hvilke styrker du har til å utforske videre. Lykke til!"
+  }
+]

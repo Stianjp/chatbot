@@ -1,0 +1,39 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./backend
+
+      - name: Build project
+        run: npm run build
+        working-directory: ./backend
+
+      - name: Deploy to server
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          echo "Deploying to server..."
+          # Legg til kommandoene for å deploye prosjektet ditt her
+          # For eksempel, hvis du bruker Heroku:
+          # heroku login
+          # heroku git:remote -a your-heroku-app-name
+          # git push heroku main
+        working-directory: ./backend

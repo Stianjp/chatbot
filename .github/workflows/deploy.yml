@@ -1,4 +1,4 @@
-name: Deploy to Production
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -20,20 +20,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./backend
 
       - name: Build project
         run: npm run build
-        working-directory: ./backend
 
-      - name: Deploy to server
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          echo "Deploying to server..."
-          # Legg til kommandoene for å deploye prosjektet ditt her
-          # For eksempel, hvis du bruker Heroku:
-          # heroku login
-          # heroku git:remote -a your-heroku-app-name
-          # git push heroku main
-        working-directory: ./backend
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build

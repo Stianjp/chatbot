@@ -1,6 +1,6 @@
 const apiBaseUrl = process.env.NODE_ENV === 'production'
-  ? process.env.REACT_APP_API_BASE_URL_PRODUCTION
-  : process.env.REACT_APP_API_BASE_URL_DEVELOPMENT;
+  ? 'https://stianjp.github.io/chatbot'
+  : 'http://localhost:5001';
 
 export const askChatbot = async (conversationMessages, systemPrompt = "") => {
   try {
